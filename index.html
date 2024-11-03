@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Explore Top Destinations</h1>
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showHome()">Home</a></li>
+                <li><a href="#" onclick="showAttractions()">Top Attractions</a></li>
+                <li><a href="#" onclick="showMap()">Interactive Map</a></li>
+                <li><a href="#" onclick="showContact()">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <div id="home" class="home-page">
+            <div class="home-page-content">
+                <h2>Welcome to Travel Explorer</h2>
+                <p>Your guide to discovering the best destinations in the world.</p>
+
+                <!-- Search Bar -->
+                <div>
+                    <input type="text" id="searchInput" placeholder="Search for a destination..." />
+                    <button id="searchButton">Search</button>
+                </div>
+
+                <!-- Search Results -->
+                <div id="search-results"></div>
+            </div>
+        </div>
+
+        <!-- Attractions Page -->
+        <div id="attractions-page" style="display:none;">
+            <h2>Top Attractions</h2>
+            <div id="attractions-list"></div>
+        </div>
+
+        <!-- Interactive Map Page -->
+        <div id="map-page" style="display:none;">
+            <h2>Interactive Map</h2>
+            <div id="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387190.2799032502!2d-74.2598746874519!3d40.69767006375188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a315c7aeb0b%3A0x4ed081fe1095b03e!2sNew%20York%20City%2C%20NY%2010001%2C%20USA!5e0!3m2!1sen!2sin!4v1697716708279!5m2!1sen!2sin" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Local Tips Page -->
+        <div id="local-tips" style="display:none;">
+            <h2>Local Tips</h2>
+            <div id="local-tips-content"></div>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact-page" style="display:none;">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or need assistance, please reach out to us:</p>
+            <p><strong>Email:</strong> support@travelexplorer.com</p>
+            <p><strong>Phone:</strong> +1 234 567 890</p>
+            <p><strong>Address:</strong> 123 Travel St, Explorer City, EX 12345</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

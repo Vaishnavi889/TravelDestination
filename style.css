@@ -1,0 +1,180 @@
+/* Styles for the main heading */
+h2 {
+    color: #000000; /* Black color for "Top Attractions" heading */
+    font-size: 2rem;
+}
+
+/* Existing styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+header {
+    background: #6b6d6cd8;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Home Page Heading */
+.home-page-content h2 {
+    color: white; /* Make the heading white */
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #999a9c;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.home-page {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+.home-page-content {
+    padding: 50px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#attractions-page {
+    text-align: left;
+}
+
+.attraction {
+    background: rgba(75, 69, 69, 0);
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 10px 0;
+    box-shadow: 0 2px 5px rgba(19, 19, 19, 0.953);
+    max-width: 1000px;
+    margin-left: 55px;
+}
+
+.attraction img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.attraction-details {
+    text-align: left;
+    margin-left: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.attraction-details h2 {
+    color: #007bff;
+    font-size: 1.8rem;
+}
+
+.attraction-details p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.attraction-details ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.attraction-details ul li {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+#map-container {
+    text-align: center;
+}
+
+#local-tips {
+    background: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#contact-page {
+    padding: 20px;
+    background-color: #f8f9fa;
+    text-align: left;
+}
