@@ -27,7 +27,7 @@ The project is built with HTML, CSS, and JavaScript. It features:
 
 1. *Clone the repository*:
    ```bash
-   git clone https://github.com/yourusername/explorers-hub.git
+   git clone https://github.com/Vaishnavi889/TravelDestination.git
 
 2. Open the index.html file in your browser to start exploring the travel guide.
 
